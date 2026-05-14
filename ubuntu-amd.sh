@@ -14,7 +14,7 @@ echo "Downloading..."
 wget https://s3.amazonaws.com/amazoncloudwatch-agent/assets/amazon-cloudwatch-agent.gpg > /dev/null 2>&1
 wget https://s3.amazonaws.com/amazoncloudwatch-agent/ubuntu/amd64/latest/amazon-cloudwatch-agent.deb > /dev/null 2>&1
 wget https://s3.amazonaws.com/amazoncloudwatch-agent/ubuntu/amd64/latest/amazon-cloudwatch-agent.deb.sig > /dev/null 2>&1
-wget https://raw.githubusercontent.com/23G/forge-cloudwatch-agent/main/amazon-cloudwatch-agent.json > /dev/null 2>&1
+wget https://raw.githubusercontent.com/solutionsrsj/forge-cloudwatch-agent/refs/heads/main/amazon-cloudwatch-agent.json > /dev/null 2>&1
 
 # Main
 gpg --import amazon-cloudwatch-agent.gpg
