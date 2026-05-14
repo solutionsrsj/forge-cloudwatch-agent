@@ -9,7 +9,11 @@
     },
     "metrics_collected": {
       "mem": {
-        "measurement": ["mem_used_percent"],
+        "measurement": [
+          "mem_used_percent",
+          "mem_available_percent",
+          "mem_available"
+        ],
         "metrics_collection_interval": 60
       }
     }
