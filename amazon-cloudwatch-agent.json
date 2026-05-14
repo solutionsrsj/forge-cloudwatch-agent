@@ -13,8 +13,7 @@
           "mem_used_percent",
           "mem_available_percent",
           "mem_available",
-          "mem_free",
-          "mem_free_percent"
+          "mem_free"
         ],
         "metrics_collection_interval": 60
       }
