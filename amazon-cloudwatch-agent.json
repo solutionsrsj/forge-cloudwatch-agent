@@ -17,7 +17,17 @@
       },
       "swap": {
         "measurement": [
-          "swap_used_percent",
+          "swap_used_percent"
+        ],
+        "metrics_collection_interval": 60
+      },
+      "disk": {
+        "resources": ["/"],
+        "measurement": [
+          "disk_used_percent"
+        ],
+        "ignore_file_system_types": [
+          "sysfs", "devtmpfs", "tmpfs", "squashfs", "overlay"
         ],
         "metrics_collection_interval": 60
       }
